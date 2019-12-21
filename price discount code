@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+{
+    float price;
+    float newprice;
+    float Discount;
+    printf("Enter the total amount of all items");
+    scanf("%f",&price);
+    printf("Discount in percentage");
+    scanf("%f",&Discount);
+    
+    if(price>=1000)
+    {
+        newprice=price-price*Discount/100;
+        printf("Price after discount =%f",newprice);
+    }
+    else
+    {
+        printf("No discount is  offered\nTotal payable amount is=%f",price);
+        
+    }
+}
