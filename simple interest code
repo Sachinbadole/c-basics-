@@ -1,0 +1,16 @@
+/*simple interest code*/
+/*21/12/2019*/
+#include <stdio.h>
+int main()
+{
+    /*declare variable used in the code*/
+    int p,n;
+    float si,r;
+    printf("enter p,r,n");
+    scanf("%d%d%f",&p,&n,&r);
+    /*formula for simple interet*/
+    si=p*n*r/100;
+    /*print the simple interest*/
+    printf("simple interest is = %f",si);
+    
+}
