@@ -1,0 +1,22 @@
+/*This program takes a integer and a float and give result using functions*/
+#include<stdio.h>
+
+int main()
+{
+	int i;
+	float j,c;
+	printf("enter the values of i and j ");
+	scanf("%d%f",&i,&j);
+	float product(int i,float j);
+	c=product(i,j);
+	printf("The product of two number is =%f",c);
+}
+
+float product(int i,float j)
+{
+	
+	float d;
+	d=i*j;
+	return(d);
+	
+}
