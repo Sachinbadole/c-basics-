@@ -1,0 +1,19 @@
+/*program to calculate leap year*/
+#include<stdio.h>
+
+int main()
+{
+	long x;
+	printf("Enter the concurrent year\n");
+	scanf("%d",&x);
+	
+	if(x%4==0)
+	{
+		printf("Current year is a leap year");
+		
+	}
+	else
+	{
+		printf("This is not a leap year ");
+		}	
+}
