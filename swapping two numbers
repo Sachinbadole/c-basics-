@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+	int c,d;
+	int temp,e;
+	printf("Enter the value of 1st number ");
+	scanf("%d",&c);
+	printf("Enter the value of 2nd number");
+	scanf("%d",&d);
+	/*converting c to d and
+	d to c*/
+	temp=c;
+	e=d;
+	d=temp;
+	c=e;
+  /*Printing two numbers */
+	printf("new value of number 1 =%d\nand new value of number 2 =%d",e,temp);
+	
+	
+	
+}
