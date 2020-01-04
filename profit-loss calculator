@@ -1,0 +1,26 @@
+/*profit and loss gained by seller*/
+#include<stdio.h>
+
+
+int main()
+{
+	float cp,sp;
+	/*cp==cost price , sp == selling price*/
+	float iL,pG;
+	/*iL==incurred loss, pG== profit gained*/
+	printf("enter the cost price of the product");
+	scanf("%f",&cp);
+	printf("enter the selling price of the product ");
+	scanf("%f",&sp);
+	if(sp<cp)
+	{
+		iL=cp-sp;
+		printf("The seller incurred loss\n");
+		printf("And the loss amount is =%f",iL);
+		}	
+		
+	else if(sp>=cp){
+		pG=sp-cp;
+		printf("The seller is in profit of amount = %f ",pG);
+	}
+}
