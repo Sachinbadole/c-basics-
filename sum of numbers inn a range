@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+	int t1,t2;
+	int sum;
+	printf("enter the number to get the range\n");
+	scanf("\n%d""\n%d",&t1,&t2);
+	int i;
+	for(i=t1;i<=t2;i++)
+	{
+		sum=sum+i;
+	}
+	printf("Sum of numbers between %d and %d is--\t%d ",t1,t2,sum);
+}
